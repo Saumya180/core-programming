@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int A,B,C;
+  
+    printf("Enter numbers a,b,c");
+    scanf("%d %d %d", &A, &B, &C);
+  
+    if (A >= B) 
+        
+            printf("A is the largest number%d\n", A);
+       else if(B>=C)
+ 	        printf("B is largest number is %d\n",B);
+       else 	        
+    	    printf("A is the largest number %d\n", C);
+}
